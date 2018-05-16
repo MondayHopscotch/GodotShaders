@@ -1,0 +1,40 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Water.shader" type="Shader" id=1]
+[ext_resource path="res://water/wave_normal_2.jpg" type="Texture" id=2]
+[ext_resource path="res://water/water.png" type="Texture" id=3]
+[ext_resource path="res://water/flow.png" type="Texture" id=4]
+[ext_resource path="res://water/land.png" type="Texture" id=5]
+
+[sub_resource type="ShaderMaterial" id=1]
+
+render_priority = 0
+shader = ExtResource( 1 )
+shader_param/wave_speed = 2.0
+shader_param/refraction_strength = 0.095
+shader_param/wave_density = 0.5
+shader_param/highlight_size = 0.109
+shader_param/highlight_strength = 0.1
+shader_param/shadow_size = -0.011
+shader_param/shadow_strength = 0.04
+shader_param/sun_direction = Vector3( 0, 1, -0.45 )
+shader_param/normal_texture = ExtResource( 2 )
+_sections_unfolded = [ "Resource", "shader_param" ]
+
+[node name="Water" type="Node2D" index="0"]
+
+[node name="water" type="Sprite" parent="." index="0"]
+
+material = SubResource( 1 )
+position = Vector2( 363, 289.294 )
+texture = ExtResource( 3 )
+normal_map = ExtResource( 4 )
+_sections_unfolded = [ "Animation", "Material", "Region", "Visibility" ]
+
+[node name="land" type="Sprite" parent="." index="1"]
+
+position = Vector2( 363, 289 )
+texture = ExtResource( 5 )
+_sections_unfolded = [ "Material" ]
+
+
