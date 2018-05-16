@@ -11,16 +11,16 @@
 render_priority = 0
 shader = ExtResource( 1 )
 shader_param/depth_on = true
+shader_param/flow_strength = 1.0
 shader_param/wave_speed = 0.634
-shader_param/refraction_strength = 0.124
-shader_param/wave_density = 0.276
+shader_param/refraction_strength = 0.014
+shader_param/wave_density = 3.479
 shader_param/wave_sway = 13.665
-shader_param/normal_offset = 0.431
-shader_param/highlight_size = 0.119
-shader_param/highlight_strength = 0.055
-shader_param/shadow_size = -0.001
-shader_param/shadow_strength = 0.058
-shader_param/sun_direction = Vector3( 0, 1, -0.45 )
+shader_param/highlight_size = 0.792
+shader_param/highlight_strength = 0.129
+shader_param/shadow_size = 0.564
+shader_param/shadow_strength = 0.117
+shader_param/sun_direction = Vector3( 0, 1, 1 )
 shader_param/normal_texture = ExtResource( 2 )
 _sections_unfolded = [ "Resource", "shader_param" ]
 
@@ -42,7 +42,6 @@ _sections_unfolded = [ "Material" ]
 
 [node name="water2" type="Sprite" parent="." index="2"]
 
-visible = false
 modulate = Color( 1, 1, 1, 0.508274 )
 position = Vector2( 362.204, 288.391 )
 texture = ExtResource( 3 )

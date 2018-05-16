@@ -7,10 +7,10 @@ path="res://.import/depth.png-4ecf3a7afc535b553a43b68cccbeb8db.stex"
 [deps]
 
 source_file="res://water/depth.png"
-source_md5="bf865894c5b41db330a8cd913fbc00f6"
+source_md5="66189ef41923a2650545a84e93422bc0"
 
 dest_files=[ "res://.import/depth.png-4ecf3a7afc535b553a43b68cccbeb8db.stex" ]
-dest_md5="982771f62063390e1ba5679b277f80e0"
+dest_md5="e3d6860044155ea0dbf6f8d896c862f9"
 
 [params]
 
