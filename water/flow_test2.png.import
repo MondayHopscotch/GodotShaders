@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/raw.png-4e62c67be95b073d01909441b6e87456.stex"
+path="res://.import/flow_test2.png-8d121af35f7a1b8967009ecbf8b8e71b.stex"
 
 [deps]
 
-source_file="res://water/raw.png"
-source_md5="8276c44768b7ce0beb584f61bdd3c320"
+source_file="res://water/flow_test2.png"
+source_md5="6843e7698171abf8b7a5d6c183ea3dcf"
 
-dest_files=[ "res://.import/raw.png-4e62c67be95b073d01909441b6e87456.stex" ]
-dest_md5="d8de16975ee8fa8030de1d50d12c40fa"
+dest_files=[ "res://.import/flow_test2.png-8d121af35f7a1b8967009ecbf8b8e71b.stex" ]
+dest_md5="aa13008c35c9eddfebb2f9ec01368311"
 
 [params]
 
